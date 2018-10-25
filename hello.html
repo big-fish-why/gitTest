@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#text{
+				height: 40px;
+				width: 80px;
+				margin: 100px auto;
+				border: 1px solid black;
+				overflow:hidden;
+				position: relative;
+				white-space: nowrap;
+			}
+			.txt{
+				width: 150px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<marquee id="text">
+			<div id="txt" class="txt">
+				文字滚动文字滚动
+			</div>
+			<!--<div id="txt2">
+				文字滚动文字滚动
+				
+			</div>-->
+		</marquee>
+		<script type="text/javascript">
+			/*window.onload = function(){
+				var text = document.getElementById("text");
+				var txt = document.getElementById("txt");
+				var txt2 = document.getElementById("txt2");
+				txt2.innerHTML = txt.innerHTML;
+				setInterval(marquee,50);
+				
+				function marquee(){
+					if(text.scrollLeft >= txt.offsetWidth ){
+						text.scrollLeft = 0;
+					}else{
+						(text.scrollLeft)++;
+					}
+				}
+			}*/
+		</script>
+	</body>
+</html>
